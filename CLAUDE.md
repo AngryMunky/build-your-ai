@@ -1,4 +1,4 @@
-# Claude Context — Build Your AI (v0.5.0)
+# Claude Context — Build Your AI (v0.6.0)
 
 A beginner-friendly, GitHub Pages-hosted **AI personality & interaction builder**.
 Users answer plain-language questions (pick an archetype, nudge some trait
@@ -22,6 +22,8 @@ rule. Bump it on every versioned change (fix→PATCH, feature→MINOR, breaking�
 - `js/generator.js` — turns wizard state into the profile + platform-specific outputs.
 - `js/preview.js` — composes the live "See it in action" sample reply from settings (no API).
 - `js/app.js` — wizard flow, state, localStorage, rendering, export/copy.
+- `assets/` — social-preview image (og-image.png) + favicons (favicon.svg, favicon-32.png, apple-touch-icon.png). Regenerate via `scripts/gen_assets.py` (needs Pillow).
+- `scripts/gen_assets.py` — regenerates the assets above.
 - `templates/` — reference Markdown skeletons for each platform output.
 - `docs/` — index (README) + beginner guide, privacy & memory, testing your AI, personality recipes.
 - `examples/` — ready-made example profiles (secretary, companion, etc.).
