@@ -2,6 +2,14 @@
 
 **Don't just *use* an AI. Decide how you want it to work with you.**
 
+<p align="center">
+  <a href="https://angrymunky.github.io/build-your-ai/">
+    <img src="https://img.shields.io/badge/%E2%96%B6%20Launch%20the%20builder-4f5bd5?style=for-the-badge" alt="Launch the builder" />
+  </a>
+</p>
+
+<p align="center"><strong><a href="https://angrymunky.github.io/build-your-ai/">▶ Open the live builder → angrymunky.github.io/build-your-ai</a></strong></p>
+
 A beginner-friendly, browser-based builder that turns plain-language choices into
 a portable **AI Interaction Profile** you can paste into ChatGPT, Claude, Gemini,
 Microsoft Copilot, or any generic system-prompt box.
