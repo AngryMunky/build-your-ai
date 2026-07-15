@@ -1,4 +1,4 @@
-# Claude Context — Build Your AI (v0.4.0)
+# Claude Context — Build Your AI (v0.5.0)
 
 A beginner-friendly, GitHub Pages-hosted **AI personality & interaction builder**.
 Users answer plain-language questions (pick an archetype, nudge some trait
@@ -23,7 +23,7 @@ rule. Bump it on every versioned change (fix→PATCH, feature→MINOR, breaking�
 - `js/preview.js` — composes the live "See it in action" sample reply from settings (no API).
 - `js/app.js` — wizard flow, state, localStorage, rendering, export/copy.
 - `templates/` — reference Markdown skeletons for each platform output.
-- `docs/` — beginner guide, privacy & memory, personality recipes, testing your AI.
+- `docs/` — index (README) + beginner guide, privacy & memory, testing your AI, personality recipes.
 - `examples/` — ready-made example profiles (secretary, companion, etc.).
 - `README.md` / `CONTRIBUTING.md` / `LICENSE`.
 

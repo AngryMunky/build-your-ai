@@ -57,6 +57,14 @@ build-your-ai/
 └── LICENSE
 ```
 
+## Docs
+
+Optional background reading (all in [`docs/`](docs/)):
+[beginner's guide](docs/beginner-guide.md) ·
+[privacy & memory](docs/privacy-and-memory.md) ·
+[testing & refining](docs/testing-your-ai.md) ·
+[personality recipes](docs/personality-recipes.md).
+
 ## Example profiles
 
 Not sure where to start? The [`examples/`](examples/) folder has finished
