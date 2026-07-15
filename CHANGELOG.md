@@ -6,6 +6,12 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 the project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 (fix → PATCH, feature → MINOR, breaking → MAJOR).
 
+## [0.6.3] — 2026-07-15
+### Changed
+- GitHub account renamed `AngryMunky` → `LawsonMode`. Updated all URLs (Pages site,
+  repo links, Open Graph/Twitter meta, docs and example links), the social-preview
+  image, the LICENSE holder, and the git remote to the new username.
+
 ## [0.6.2] — 2026-07-15
 ### Added
 - This changelog.
@@ -56,11 +62,12 @@ the project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
   (Markdown + ChatGPT + Claude + generic + summary), localStorage persistence,
   light/dark theme, and copy/download export. Deployed to GitHub Pages.
 
-[0.6.2]: https://github.com/AngryMunky/build-your-ai/compare/v0.6.1...v0.6.2
-[0.6.1]: https://github.com/AngryMunky/build-your-ai/compare/v0.6.0...v0.6.1
-[0.6.0]: https://github.com/AngryMunky/build-your-ai/compare/v0.5.0...v0.6.0
-[0.5.0]: https://github.com/AngryMunky/build-your-ai/compare/v0.4.0...v0.5.0
-[0.4.0]: https://github.com/AngryMunky/build-your-ai/compare/v0.3.0...v0.4.0
-[0.3.0]: https://github.com/AngryMunky/build-your-ai/compare/v0.2.0...v0.3.0
-[0.2.0]: https://github.com/AngryMunky/build-your-ai/compare/v0.1.0...v0.2.0
-[0.1.0]: https://github.com/AngryMunky/build-your-ai/releases/tag/v0.1.0
+[0.6.3]: https://github.com/LawsonMode/build-your-ai/compare/v0.6.2...v0.6.3
+[0.6.2]: https://github.com/LawsonMode/build-your-ai/compare/v0.6.1...v0.6.2
+[0.6.1]: https://github.com/LawsonMode/build-your-ai/compare/v0.6.0...v0.6.1
+[0.6.0]: https://github.com/LawsonMode/build-your-ai/compare/v0.5.0...v0.6.0
+[0.5.0]: https://github.com/LawsonMode/build-your-ai/compare/v0.4.0...v0.5.0
+[0.4.0]: https://github.com/LawsonMode/build-your-ai/compare/v0.3.0...v0.4.0
+[0.3.0]: https://github.com/LawsonMode/build-your-ai/compare/v0.2.0...v0.3.0
+[0.2.0]: https://github.com/LawsonMode/build-your-ai/compare/v0.1.0...v0.2.0
+[0.1.0]: https://github.com/LawsonMode/build-your-ai/releases/tag/v0.1.0

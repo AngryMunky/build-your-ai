@@ -15,5 +15,5 @@ instructions), Gemini, Copilot, or a generic system-prompt box.
 | [devils-advocate.md](devils-advocate.md) | The Challenger | Stress-testing ideas before the real world does |
 | [creative-partner.md](creative-partner.md) | The Creator | Riffing and building creative work together |
 
-Want a different mix? Open the [builder](https://angrymunky.github.io/build-your-ai/)
+Want a different mix? Open the [builder](https://lawsonmode.github.io/build-your-ai/)
 and tweak the sliders — these files were generated the same way.

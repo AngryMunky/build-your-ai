@@ -1,4 +1,4 @@
-# Claude Context — Build Your AI (v0.6.2)
+# Claude Context — Build Your AI (v0.6.3)
 
 A beginner-friendly, GitHub Pages-hosted **AI personality & interaction builder**.
 Users answer plain-language questions (pick an archetype, nudge some trait
@@ -41,4 +41,4 @@ the site also works from `file://` without a server.
   only; never send user answers anywhere.
 - No real chatbot preview in the MVP — the "preview" renders the generated
   profile and offers quick trait nudges; it does **not** call an AI.
-- GitHub pushes use the **"Angry Munky"** alias (see root memory), not the real name.
+- GitHub pushes use the **"LawsonMode"** alias (see root memory), not the real name.

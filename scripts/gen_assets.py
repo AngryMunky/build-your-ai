@@ -52,7 +52,7 @@ def make_og():
            font=f(FONT_REG, 32), fill=MUTED)
     d.text((84, 518), "for ChatGPT, Claude, Gemini & Copilot.",
            font=f(FONT_REG, 32), fill=MUTED)
-    url = "angrymunky.github.io/build-your-ai"
+    url = "lawsonmode.github.io/build-your-ai"
     uw = d.textlength(url, font=f(FONT_REG, 26))
     d.text((W - uw - 60, 560), url, font=f(FONT_REG, 26), fill=MUTED)
     img.save(os.path.join(ASSETS, "og-image.png"))

@@ -1,6 +1,6 @@
 # Build Your AI — docs
 
-Background reading for the [builder](https://angrymunky.github.io/build-your-ai/).
+Background reading for the [builder](https://lawsonmode.github.io/build-your-ai/).
 You don't need any of it to use the tool, but it helps to know what the choices
 are really doing.
 
