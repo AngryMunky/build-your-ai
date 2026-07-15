@@ -151,6 +151,8 @@
     { key: "markdown", label: "Full Markdown profile" },
     { key: "chatgpt", label: "ChatGPT custom instructions" },
     { key: "claude", label: "Claude profile instructions" },
+    { key: "gemini", label: "Gemini Gem instructions" },
+    { key: "copilot", label: "Copilot conversation starter" },
     { key: "generic", label: "Generic system prompt" },
     { key: "summary", label: "Plain-language summary" }
   ];

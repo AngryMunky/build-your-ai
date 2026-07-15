@@ -75,7 +75,6 @@ your browser's site data erases your saved profile.
 
 - More archetypes and example profiles.
 - Import/export of a saved configuration file.
-- Gemini Gems and Copilot-specific export formats.
 
 ## License
 

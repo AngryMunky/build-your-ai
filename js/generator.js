@@ -178,6 +178,43 @@
     return out.join("\n");
   }
 
+  // Gemini "Gem" instructions: a named role + instruction block.
+  function toGemini(state) {
+    var mem = memoryLines(state);
+    var out = [];
+    out.push("Role: my " + (state.role || "personal assistant").toLowerCase() + ".");
+    out.push("Personality: " + (state.personality || "Balanced and adaptable."));
+    out.push("");
+    out.push("How you should respond:");
+    communicationLines(state).forEach(function (l) { out.push("- " + l); });
+    challengeLines(state).forEach(function (l) { out.push("- " + l); });
+    initiativeLines(state).forEach(function (l) { out.push("- " + l); });
+    if (mem.ask.length || mem.never.length) {
+      out.push("");
+      out.push("Boundaries:");
+      if (mem.ask.length) out.push("- Ask before saving: " + mem.ask.join(", ") + ".");
+      if (mem.never.length) out.push("- Never store: " + mem.never.join(", ") + ".");
+    }
+    return out.join("\n");
+  }
+
+  // Microsoft Copilot: a compact conversation-starter directive.
+  function toCopilot(state) {
+    var mem = memoryLines(state);
+    var out = [];
+    out.push("For our conversations, act as my " + (state.role || "personal assistant").toLowerCase() + ". " +
+      (state.personality || "Be balanced and adaptable."));
+    out.push("");
+    communicationLines(state).forEach(function (l) { out.push("- " + l); });
+    challengeLines(state).forEach(function (l) { out.push("- " + l); });
+    initiativeLines(state).forEach(function (l) { out.push("- " + l); });
+    if (mem.never.length) {
+      out.push("");
+      out.push("Never store " + mem.never.join(", ").toLowerCase() + ".");
+    }
+    return out.join("\n");
+  }
+
   // Portable generic system prompt.
   function toGeneric(state) {
     var mem = memoryLines(state);
@@ -229,6 +266,8 @@
       markdown: toMarkdown(state),
       chatgpt: toChatGPT(state),
       claude: toClaude(state),
+      gemini: toGemini(state),
+      copilot: toCopilot(state),
       generic: toGeneric(state),
       summary: toSummary(state)
     };

@@ -1,4 +1,4 @@
-# Claude Context — Build Your AI (v0.3.0)
+# Claude Context — Build Your AI (v0.4.0)
 
 A beginner-friendly, GitHub Pages-hosted **AI personality & interaction builder**.
 Users answer plain-language questions (pick an archetype, nudge some trait
